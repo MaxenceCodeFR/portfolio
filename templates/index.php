@@ -10,5 +10,8 @@
 
 <body>
     <?php include "navbar.php" ?>
+    <div class="div-img">
+        <img class="img-profil" src="/images/profil.png" alt="">
+    </div>
     
 </body>
