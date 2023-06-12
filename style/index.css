@@ -1,11 +1,194 @@
-.div-img{
-    width:100%;
-    height:100%;
-    display:flex;
-    justify-content:center;
-    align-items:center;
 
+.div-img{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3rem;
 }
 .img-profil{
     width:60%;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 50%;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    z-index: -99;
+}
+
+.text-presentation{
+    font-size: 1rem;
+    white-space: normal;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+    margin: 2rem 2rem;
+    letter-spacing: 2px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 20px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    padding: 1rem 1.5rem;
+    font-size: 1.25rem;
+}
+
+.github{
+    position: fixed;
+    top: 10px;
+    right: 5px;
+    transition: .6s;
+    z-index: 99;
+}
+.github:hover{
+    fill: black;
+}
+.linkedin{
+    position: fixed;
+    top: 60px;
+    right: 5px;
+    transition: .6s;
+    z-index: 99;
+}
+.linkedin:hover{
+    fill: #0A66C2;
+}
+
+.title-hardskills{
+    font-family: 'Manrope', sans-serif;
+    text-align: center;
+    color: #213555;
+    letter-spacing: 2px;
+}
+
+.container {
+    display: grid;
+    width: 100%;
+    height: 100%;
+    grid-template-areas: "PHP Symfony MySQL"
+    "Bootstrap SCSS Twig"
+    "JavaScript GIT HTML";
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 1em;
+    padding: 1em 1em;
+    z-index: -99;
+  }
+  
+  
+  .PHP {
+    grid-area: PHP;
+    
+    
+  }
+  .Symfony {
+    grid-area: Symfony;
+   
+  }
+  .MySQL {
+    grid-area: MySQL;
+    
+  }
+  .Bootstrap {
+    grid-area: Bootstrap;
+    
+  }
+  .SCSS {
+    grid-area: SCSS;
+    
+  }
+  .Twig {
+    grid-area: Twig;
+    
+  }
+  .JavaScript {
+    grid-area: JavaScript;
+    
+  }
+  .GIT {
+    grid-area: GIT;
+    
+  }
+  .HTML {
+    grid-area: HTML;
+    
+  }
+
+  .glass{
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: -99;
+  }
+
+  .title-softskills{
+    font-family: 'Manrope', sans-serif;
+    text-align: center;
+    color: #213555;
+    letter-spacing: 2px;
+    margin-top: 5rem;
+  }
+
+  .softskills{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 2rem 2rem 10rem 2rem;
+    gap: 2rem;
+    z-index: -1000;
+    
+  }
+  .soft{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.25rem;
+    font-weight: 500;
+    letter-spacing: 2px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 20px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    padding: 1.5rem 1.5rem;
+    
+  }
+  
+
+  /* MEDIA QUERIES */
+  @media screen and (min-width:1000px) {
+    .github{
+        top: 30px;
+        right: 10px;
+        width: 50px;
+        height: 50px;
+    }
+    .linkedin{
+        top: 30px;
+        right: 70px;
+        width: 50px;
+        height: 50px;
+    }
+    .main-title{
+        margin-top: 6rem;
+    }
+    .img-profil{
+        width: 20%;
+        margin-top: 5rem;
+    }
+    .div-img{
+        flex-direction: row;
+        margin: 4em 10rem;
+    }
+    .text-presentation{
+        padding: 2rem 2rem;
+    }
+    .container{
+        margin: auto;
+        padding: 1rem 10rem;
+    }
+    .softskills{
+        display: grid; /* Définit la rangée comme une grille */
+  grid-template-columns: repeat(4, 1fr); /* Crée 4 colonnes de largeur égale */
+  gap: 10px; /* Ajoute un espacement entre les objets */
+  align-items: stretch;
+    }
+    
 }
