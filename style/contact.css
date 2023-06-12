@@ -1,0 +1,156 @@
+.h1contact{
+    text-align: center;
+    font-family: 'Manrope', sans-serif;
+    font-size: 2rem;
+    padding: 2rem;
+    color: #213555;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 20px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .up {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5em;
+  }
+  
+  .down {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5em;
+  }
+  
+  .card1 {
+    width: 150px;
+    height: 150px;
+    outline: none;
+    border: none;
+    background: white;
+    border-radius: 150px 5px 5px 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    transition: .2s ease-in-out;
+  }
+  
+  .mail {
+    margin-top: 3em;
+    margin-left: 2em;
+    fill: #cc3939;
+  }
+  
+  .card2 {
+    width: 150px;
+    height: 150px;
+    outline: none;
+    border: none;
+    background: white;
+    border-radius: 5px 150px 5px 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    transition: .2s ease-in-out;
+  }
+  
+  .linkedin1 {
+    margin-top: 1.5em;
+    margin-left: -.9em;
+    fill: #0a66c2;
+  }
+  
+  .card3 {
+    width: 150px;
+    height: 150px;
+    outline: none;
+    border: none;
+    background: white;
+    border-radius: 5px 5px 5px 150px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    transition: .2s ease-in-out;
+  }
+  
+  .github1 {
+    margin-top: -.6em;
+    margin-left: 1.2em;
+  }
+  
+  .card4 {
+    width: 150px;
+    height: 150px;
+    outline: none;
+    border: none;
+    background: white;
+    border-radius: 5px 5px 150px 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    transition: .2s ease-in-out;
+  }
+  
+  .cv {
+    margin-top: -.9em;
+    margin-left: -1.2em;
+    fill: #ACE1AF;
+  }
+  
+  .card1:hover {
+    cursor: pointer;
+    scale: 1.1;
+    background-color: #cc3939;
+  }
+  
+  .card1:hover .mail {
+    fill: white;
+  }
+  
+  .card2:hover {
+    cursor: pointer;
+    scale: 1.1;
+    background-color: #0a66c2;
+  }
+  
+  .card2:hover .linkedin1 {
+    fill: white;
+  }
+  
+  .card3:hover {
+    cursor: pointer;
+    scale: 1.1;
+    background-color: black;
+  }
+  
+  .card3:hover .github1 {
+    fill: white;
+  }
+  
+  .card4:hover {
+    cursor: pointer;
+    scale: 1.1;
+    background-color: #ACE1AF;
+  }
+  
+  .card4:hover .cv {
+    fill: white;
+  }
+
+  .goodbye{
+    font-family:'Manrope', sans-serif;
+    font-size: 1.5rem;
+    color: #213555;
+    position: absolute;
+    bottom: 15%;
+    left: 60%;
+  }
+
+  @media screen and (min-width: 1000px) {
+    .h1contact{
+        margin: 7rem 20rem;
+        padding: 2rem;
+    }
+  }

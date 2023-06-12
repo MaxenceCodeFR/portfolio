@@ -171,11 +171,10 @@
     }
     .img-profil{
         width: 20%;
-        margin-top: 5rem;
     }
     .div-img{
         flex-direction: row;
-        margin: 4em 10rem;
+        margin: 6em 10rem;
     }
     .text-presentation{
         padding: 2rem 2rem;
