@@ -44,6 +44,6 @@
             </a>
   </div>
 </div>
-    <h3 class="goodbye">A bientôt ...</h3>
+    <h3 class="goodbye">À bientôt ...</h3>
 </body>
 </html>

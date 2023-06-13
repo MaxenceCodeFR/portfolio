@@ -55,7 +55,7 @@
             <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#6fa8dc" class="bi bi-people-fill" viewBox="0 0 16 16">
                 <path d="M7 14s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1H7Zm4-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6Zm-5.784 6A2.238 2.238 0 0 1 5 13c0-1.355.68-2.75 1.936-3.72A6.325 6.325 0 0 0 5 9c-4 0-5 3-5 4s1 1 1 1h4.216ZM4.5 8a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5Z"/>
             </svg>
-            <h4>Travail d'Equipe</h4>
+            <h4>Travail d'Équipe</h4>
             <p>La réussite appartient à tout le monde. C'est au travail d'équipe qu'en revient le mérite.</p>
             <cite>- Franck Picard</cite>
         </div>
@@ -72,7 +72,7 @@
                 <path d="M8 15c4.418 0 8-3.134 8-7s-3.582-7-8-7-8 3.134-8 7c0 1.76.743 3.37 1.97 4.6-.097 1.016-.417 2.13-.771 2.966-.079.186.074.394.273.362 2.256-.37 3.597-.938 4.18-1.234A9.06 9.06 0 0 0 8 15z"/>
             </svg>
             <h4>Curiosité</h4>
-            <p>On ne force pas la curiosité, on l'éveille</p>
+            <p>On ne force pas la curiosité, on l'éveille.</p>
             <cite>- Daniel Pennac</cite>
         </div>
     </div>
@@ -82,7 +82,7 @@
 <script>
     var typed = new Typed('.text-presentation', {
       strings: ['Après plus de 4 ans d\'expérience en restauration, je décide de revenir aux sources : le développement web. Attiré par ce domaine depuis toujours, je suis en quête de nouveaux défis. Mon but : travailler en équipe sur des projets qui ont du sens, contribuer à la croissance de l\'entreprise, satisfaire les nouveaux, comme les anciens clients et prendre en compétences. Naturellement attiré au premier abord par le back-end, j\'ai rapidement pris goût au front-end et à l\'UX/UI design.'],
-      typeSpeed: 20,
+      typeSpeed: 5,
       loop: false,
       showCursor: false,
     });

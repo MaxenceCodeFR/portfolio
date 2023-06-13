@@ -1,4 +1,4 @@
-.nav{
+.nav1{
     height: 60px;
     border-radius: 40px;
     width: 90%;
@@ -8,12 +8,12 @@
     background: rgba(255, 255, 255, 0.2);
     border-radius: 40px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(20px);
+    backdrop-filter: blur(5px);
     font-family: 'Poppins', sans-serif;
     z-index: 99;
 }
 @media screen and (min-width: 1000px) {
-    .nav{
+    .nav1{
         top: 20px;
         width: 50%;
         left: 25%;
@@ -26,7 +26,7 @@
 }
     
 
-.ul-nav{
+.ul-nav1{
     display: flex;
     list-style: none;
     align-items: center;
