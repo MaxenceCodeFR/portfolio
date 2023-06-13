@@ -81,7 +81,7 @@
 <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
 <script>
     var typed = new Typed('.text-presentation', {
-      strings: ['Après plus de 4 ans d\'expérience en restauration, je décide de revenir aux sources : le développement web. Attiré par ce domaine depuis toujours, je suis en quête de nouveaux défis. Mon but : travailler en équipe sur des projets qui ont du sens, contribuer à la croissance de l\'entreprise, satisfaire les nouveaux, comme les anciens clients et prendre en compétences. Naturellement attiré au premier abord par le back-end, j\'ai rapidement pris goût au front-end et à l\'UX/UI design.'],
+      strings: ['Après plus de 4 ans d\'expérience en restauration, je décide de revenir aux sources : le développement web. Attiré par ce domaine depuis toujours, je suis en quête de nouveaux défis. Mon but : travailler en équipe sur des projets qui ont du sens, contribuer à la croissance de l\'entreprise, satisfaire les nouveaux comme les anciens clients et monter en compétences. Naturellement captivé par le back-end, j\'ai rapidement pris goût au front-end et à l\'UX/UI design.'],
       typeSpeed: 5,
       loop: false,
       showCursor: false,
