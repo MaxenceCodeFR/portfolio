@@ -1,3 +1,4 @@
+/* CARDS */
 .cards {
     max-width: 1200px;
     max-height: 800px;
@@ -64,6 +65,7 @@
   .image-row {
     display: flex;
     margin-top: 2rem;
+    gap: .25rem;
   }
   
   .image-row > img {
@@ -72,13 +74,44 @@
     height: 50px;
   }
 
-  
+  .links{
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    margin-bottom: 1rem;
+  }
 
+  .github3{
+    transition: .25s ease;
+  }
+  .github3:hover{
+    fill: black;
+  }
+
+  .globe{
+    transition: .25s ease;
+  }
+  .globe:hover{
+    fill: #3067c0;
+  }
+
+  .k{
+    display: none;
+  }
+
+  
+/* MEDIA QUERIES */
   @media (min-width: 600px) {
     .cards { grid-template-columns: repeat(2, 1fr);
       margin:7rem auto }
     .card > img {
       object-fit: contain;
-      
+    }
+
+    .image-row{
+      gap: 1rem;
+    }
+    .k{
+      display: initial;
     }
   }
